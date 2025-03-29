@@ -27,8 +27,19 @@ Esta aplicação usa uma forma *não convencional* para validar estes emails, po
 ## 🌐 Funcionalidades
 
 * **Validação de E-mails** - Verifica sintaxe, domínio e acessibilidade via **SMTP**.
+<p align="center">
+  <img src="https://i.imgur.com/WwHoI4H.jpeg" alt="Validação de E-mails">
+</p>
+
 * **Configuração Personalizável** - Permite definir regras de validação via **TXT**.
+<p align="center">
+  <img src="https://i.imgur.com/WwHoI4H.jpeg" alt="Configuração Personalizável">
+</p>
+
 * **Relatórios de Validação** - Gera logs detalhados sobre os e-mails processados.
+<p align="center">
+  <img src="https://i.imgur.com/GWKpy2T.jpeg" alt="Relatórios de Validação">
+</p>
 
 ## 📥 Requisitos Mínimos
 
