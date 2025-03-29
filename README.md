@@ -33,7 +33,7 @@ Esta aplicação usa uma forma *não convencional* para validar estes emails, po
 
 * **Configuração Personalizável** - Permite definir regras de validação via **TXT**.
 <p align="center">
-  <img src="https://i.imgur.com/4QlAb3d.jpeg" alt="Configuração Personalizável">
+  <img src="https://i.imgur.com/OV3OA6c.jpeg" alt="Configuração Personalizável">
 </p>
 
 * **Relatórios de Validação** - Gera logs detalhados sobre os e-mails processados.
