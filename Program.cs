@@ -4,7 +4,6 @@ public class Program
 {
     private static readonly bool runningInIde = Debugger.IsAttached;
 
-    // Obtém o diretório do executável no runtime, seja na IDE ou quando publicado
     private static readonly string basePath = runningInIde
         ? Path.Combine(Directory.GetCurrentDirectory())
         : AppContext.BaseDirectory;
@@ -67,23 +66,6 @@ public class Program
 
         var smtpValidator = new SmtpValidator();
         var invalidDomains = new HashSet<string>();
-
-        Console.WriteLine(@"
-        $$$$$$$$\                         $$\ $$\ $$\    $$\          $$\ $$\       $$\            $$\                         
-        $$  _____|                        \__|$$ |$$ |   $$ |         $$ |\__|      $$ |           $$ |                        
-        $$ |      $$$$$$\$$$$\   $$$$$$\  $$\ $$ |$$ |   $$ |$$$$$$\  $$ |$$\  $$$$$$$ | $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$\  
-        $$$$$\    $$  _$$  _$$\  \____$$\ $$ |$$ |\$$\  $$  |\____$$\ $$ |$$ |$$  __$$ | \____$$\\_$$  _|  $$  __$$\ $$  __$$\ 
-        $$  __|   $$ / $$ / $$ | $$$$$$$ |$$ |$$ | \$$\$$  / $$$$$$$ |$$ |$$ |$$ /  $$ | $$$$$$$ | $$ |    $$ /  $$ |$$ |  \__|
-        $$ |      $$ | $$ | $$ |$$  __$$ |$$ |$$ |  \$$$  / $$  __$$ |$$ |$$ |$$ |  $$ |$$  __$$ | $$ |$$\ $$ |  $$ |$$ |      
-        $$$$$$$$\ $$ | $$ | $$ |\$$$$$$$ |$$ |$$ |   \$  /  \$$$$$$$ |$$ |$$ |\$$$$$$$ |\$$$$$$$ | \$$$$  |\$$$$$$  |$$ |      
-        \________|\__| \__| \__| \_______|\__|\__|    \_/    \_______|\__|\__| \_______| \_______|  \____/  \______/ \__|      
-                                                                                                                       
-                                                                                                                       
-                                                           by Jorgeluisreis
-                                                                v1.0.0
-                                                   www.linkedin.com/in/ojorge-luis
-----------------------------------------------------------------------------------------------------------------------------------------
-");
 
         for (int i = 0; i < sites.Length; i++)
         {
