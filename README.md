@@ -26,14 +26,14 @@ Esta aplicação usa uma forma *não convencional* para validar estes emails, po
 
 ## 🌐 Funcionalidades
 
-**Validação de E-mails** - Verifica sintaxe, domínio e acessibilidade via **SMTP**.
-**Configuração Personalizável** - Permite definir regras de validação via **TXT**.
-**Relatórios de Validação** - Gera logs detalhados sobre os e-mails processados.
+* **Validação de E-mails** - Verifica sintaxe, domínio e acessibilidade via **SMTP**.
+* **Configuração Personalizável** - Permite definir regras de validação via **TXT**.
+* **Relatórios de Validação** - Gera logs detalhados sobre os e-mails processados.
 
 ## 📥 Requisitos Mínimos
 
-**.NET 8.0** - Plataforma necessária para execução.
-**Conexão com a Internet** - Necessária para validações via **SMTP**.
+* **.NET 8.0** - Plataforma necessária para execução.
+* **Conexão com a Internet** - Necessária para validações via **SMTP**.
 
 ## ⚙️ Configuração
 
