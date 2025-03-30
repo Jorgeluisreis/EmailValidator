@@ -128,7 +128,6 @@ public class SmtpValidator
                                             writer.NewLine = "\r\n";
                                             writer.AutoFlush = true;
 
-                                            // Lê a saudação do servidor
                                             var greeting = await reader.ReadLineAsync();
                                             if (string.IsNullOrEmpty(greeting))
                                             {
@@ -140,17 +139,14 @@ public class SmtpValidator
                                                 Console.WriteLine($"Saudação recebida: {greeting}");
                                             }
 
-                                            // Envia o comando HELO
                                             await writer.WriteLineAsync("HELO " + newHost);
                                             var heloResponse = await reader.ReadLineAsync();
                                             Console.WriteLine($"Resposta HELO: {heloResponse}");
 
-                                            // Envia o comando MAIL FROM
                                             await writer.WriteLineAsync("MAIL FROM:<test@example.com>");
                                             var mailFromResponse = await reader.ReadLineAsync();
                                             Console.WriteLine($"Resposta MAIL FROM: {mailFromResponse}");
 
-                                            // Envia o comando RCPT TO
                                             await writer.WriteLineAsync($"RCPT TO:<{email}>");
                                             var response = await reader.ReadLineAsync();
                                             Console.WriteLine($"Resposta RCPT TO: {response}");
