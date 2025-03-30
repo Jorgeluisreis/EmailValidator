@@ -1,0 +1,85 @@
+#EmailValidator
+*.txt
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.app
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Rider projects
+*.sln.iml
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+# Azure Functions
+local.settings.json
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Visual Studio profiler
+*.psess
+
+# Windows installer files
+*.msi
+*.msm
+*.msp
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# Miscellaneous
+*.log
+*.log.*
+*.zip
+*.tar
+*.tgz
+*.gz
+*.rar
+*.7z
+*.tar.gz
+
+# Others
+*.db
