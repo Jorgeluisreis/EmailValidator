@@ -41,6 +41,10 @@ Esta aplicação usa uma forma *não convencional* para validar estes emails, po
   <img src="https://i.imgur.com/GWKpy2T.jpeg" alt="Relatórios de Validação">
 </p>
 
+<p align="center">
+  <img src="https://i.imgur.com/AmL5U7X.jpeg" alt="Relatórios dos Invalidados">
+</p>
+
 ## 📥 Requisitos Mínimos
 
 * **.NET 8.0** - Plataforma necessária para execução.
